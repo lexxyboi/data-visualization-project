@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #fdfacd;
+  }
+
+  .header-container {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1%;
+
+  }
+
+  .header-container h1 {
+    font-weight: bolder;
+  }
+  
+  #sidebar {
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+
+  #sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    font-size: large;
+  }
+
+  #sidebar a i {
+    margin-right: 10px;
+  }
+
+  #sidebar a:hover {
+    background-color: #ffb700;
+    color: #a30000;
+    border-radius: 5px;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-left: 20px;
+    font-size: smaller;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #content-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffb700;
+  }
+
+  .custom-card {
+    margin-bottom: 1%; /* Adjust the margin-bottom value as needed */
+  }
+
+  #dotmap {
+    background-color: #ffffff;
+  }
+
+  #plotmap {
+    background-color: #ffffff;
+  }
+  
